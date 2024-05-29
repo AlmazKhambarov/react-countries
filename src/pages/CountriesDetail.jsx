@@ -3,10 +3,9 @@ import { API } from "../services/api";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import CountryDetail from "../features/country-detail";
-
+import { locationIcon, populationIcon, squareIcon } from "../assets/images";
 
 import "../styles/home.css";
-import { locationIcon, populationIcon, squareIcon } from "../assets/images";
 const CountriesDetail = () => {
   const [country, setCountry] = useState();
   const params = useParams();

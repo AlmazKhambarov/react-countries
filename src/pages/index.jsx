@@ -25,8 +25,7 @@ const Home = () => {
   if(isLoading){
     return <p>Loading....</p>
   }
-  console.log(isLoading)
-
+ 
   return (
     <div className='container'>
       <div className='list'>
